@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,17 +16,19 @@ class MainActivity : AppCompatActivity() {
 
 
         // get reference to button
-        val btn_click_me = findViewById(R.id.button) as Button
+//        val btnClickMe = findViewById(R.id.button) as Button
+
+
 
         // reference to the text
-        val myTextView = findViewById(R.id.textView) as TextView
+//        val myTextView = findViewById(R.id.textView) as TextView
         var timesClicked = 0
 
         // set on-click listener
-        btn_click_me.setOnClickListener {
+        button.setOnClickListener {
 //            myTextView.text = "Text"
             timesClicked += 1
-            myTextView.text = timesClicked.toString()
+            textView.text = timesClicked.toString()
 
             Toast.makeText(this@MainActivity, "Hi Denis", Toast.LENGTH_SHORT).show()
 
