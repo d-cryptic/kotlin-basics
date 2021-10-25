@@ -21,7 +21,7 @@ fun main() {
     println(nullableName)
 
 
-    val wifesAge: String? = user?.wife?.age ?: 0 //safe call operator in a chain
+//    val wifesAge: String? = user?.wife?.age ?: 0 //safe call operator in a chain
 /*
     if(nullableName != null){
         var len2 = nullableName.length

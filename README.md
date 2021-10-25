@@ -215,5 +215,16 @@ Some more topics to learn:
 3. Nullable value
 4. !!. forcing value
 5. Chain safe call operator
-6. 
+
+<hr/>
+
+## OOPS
+
+### Classes and Objects 
+
+#### Scope
+
+- Shadowing - try to avoid shadowing for two reasons
+1. you code becomes hard to read as two different things have the same name, which leads to confusion
+2. once shadowed, you can no longer access the original variable within a scope.
 
