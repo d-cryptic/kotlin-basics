@@ -29,7 +29,7 @@ class Car(){
             field = if(value > 0) value else throw IllegalArgumentException("Maximum speed cannont be less than 0")
         }
 
-    var myModel : String = 'MS'
+    var myModel : String = "MS"
         private set
 
 
